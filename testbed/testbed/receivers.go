@@ -38,6 +38,7 @@ type DataReceiver interface {
 type DataReceiverBase struct {
 	// Port on which to listen.
 	Port int
+	_ struct{}
 }
 
 // TODO: Move these constants.

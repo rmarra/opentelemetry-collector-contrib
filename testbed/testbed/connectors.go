@@ -19,4 +19,5 @@ type DataConnector interface {
 type DataConnectorBase struct {
 	// The data type of the receiver in second pipeline.
 	ReceiverDataType string
+	_ struct{}
 }
